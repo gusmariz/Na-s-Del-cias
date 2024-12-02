@@ -1,0 +1,359 @@
+html {
+    color: #F4F4F3;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: -0.04em;
+    background-color: #FFC700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F4F4F3;
+    font-size: 24px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 2vw;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+}
+
+.nav ul {
+    display: flex;
+    font-size: 1.2rem;
+    gap: 30px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.acoes {
+    display: flex;
+    gap: 50px;
+
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+    margin-bottom: 5vh;
+}
+
+.titulo h1 {
+    position: relative;
+    padding: 50px 150px;
+    font-size: 6.5rem;
+    text-align: center;
+    line-height: 1.2em;
+    z-index: 10;
+}
+
+.caixa-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    border: 1px solid;
+    clip-path: ellipse();
+}
+
+.imagem img {
+    height: 1300px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 450px;
+}
+
+.caixa-textos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 60%;
+    padding: 2vw;
+}
+
+.caixa-textos h1 {
+    width: 45%;
+    height: 90%;
+    font-size: 2.9rem;
+    line-height: 1.2em;
+    letter-spacing: -0.04em;
+}
+
+.caixa-textos p {
+    width: 45%;
+    height: 90%;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    letter-spacing: -0.01em;
+}
+
+.animacao {
+    display: flex;
+    align-items: center;
+    font-size: 2.2em;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    gap: 20px;
+    height: 40%;
+}
+
+.animacao p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    animation: DireitaEsquerda 20s linear infinite;
+}
+
+@keyframes DireitaEsquerda {
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+.secao3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 250px 30px;
+}
+
+.titulo2 h2 {
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: -0.04em;
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.secao4 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    min-height: 100vh;
+    margin-bottom: 50px;
+}
+
+.posteres {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.posteres .cartoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+}
+
+.posteres .cartoes .cartao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.posteres .cartoes .cartao h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.04em;
+}
+
+.posteres .cartoes .cartao span {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.3em;
+    letter-spacing: -0.01;
+}
+
+.secao5 img{
+    width: 100%;
+}
+
+.secao6 {
+    display: flex;
+    height: 150vh;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 80px;
+    width: 100%;
+}
+
+.container6 .textos {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.container6 .textos h2 {
+    line-height: 1.2em;
+    font-size: 4.2rem;
+}
+
+.container6 .textos p {
+    margin-top: 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.container6 .foto {
+    background-color: darkgray;
+    display: flex;
+    width: 44%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    overflow: hidden;
+}
+
+.rodape {
+    background-color: #000000;
+    height: 100vh;
+}
+
+.container-rodape {
+    height: 100%;
+}
+
+.container-rodape .acoes2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    height: 60%;
+}
+
+.acoes2 .redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 32%;
+}
+
+.acoes2 .redes-sociais span {
+    display: flex;
+    justify-content: center;
+    color: #989796;
+}
+
+.acoes2 .redes-sociais ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.acoes2 .redes-sociais ul i {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.acoes2 .contato-cliente {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 32%;
+}
+
+.acoes2 .contato-cliente span {
+    color: #989796;
+}
+
+.acoes2 .contato-cliente p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.acoes2 .contato-cliente .texto {
+    width: 70%;
+    height: 70px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.acoes2 .contato-cliente button {
+    background-color: transparent;
+    display: block;
+    color: #FFC700;
+    padding: 1em 1.67em;
+    border: 3px solid #FFC700;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.acoes2 .contato-cliente button:hover {
+    background-color: #FFC700;
+    color: #000000;
+}
+
+.container-rodape .ultimo-titulo{
+    display: flex;
+    height: 40%;
+}
+
+.container-rodape .ultimo-titulo h1 {
+    display: flex;
+    align-items: center;
+    line-height: 1.2em;
+    letter-spacing: -0.04em;
+    font-size: 6.5rem;
+    text-align: center;
+}
